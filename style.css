@@ -1,0 +1,140 @@
+.main{
+    display: flex;
+    justify-content: center; 
+    text-align: center; 
+    height: 100vh;
+    align-items: center;
+} 
+.w50{
+       width: 50%;
+} 
+body{
+      background-color: #A3C9D9; 
+      color:#F2F0EB; 
+      font-size: 30px;
+      font-family: 'Comfortaa', cursive;
+      
+}
+a{
+ color: #548DBF;
+ text-decoration: none;
+ background-color: #F2F0EB; 
+ padding: 10px 30px; 
+ background-image: radial-gradient(#A3C9D9 2px, transparent 0); 
+ background-size: 5px 5px;
+ background-position: -19px -19px; 
+ border-radius: 1000px;
+}
+a:hover{
+      background-color: #A3C9D9;
+       background-image: radial-gradient (#A3C9D9 2px, transparent 0);
+        transition: 0.3s;
+}
+.cookie{
+     animation: 50s example infinite; 
+      box-shadow: 0 0 50px 50px #F2F0EB;         
+     animation-timing-function: linear;
+} 
+.box{
+height: 280px;
+width: 408px;
+margin: 39px;
+display: flex;
+text-align: center;
+position: relative;
+}
+.boxx{
+height: 250px;
+width: 250px;
+float: left;
+margin: 20px;
+display: flex;
+text-align: center;
+position: relative;
+}
+.boxxx{
+height: 250px;
+width: 250px;
+float: right;
+margin: 20px;
+display: flex;
+text-align: center;
+}
+
+.bred{
+justify-content: center;
+}
+.bgreen{
+justify-content: center;
+}
+.bblue{
+justify-content: center;
+}
+.dflex{
+display: inline-block;
+justify-content: center;
+}
+.ddflex{
+display: inline-block;
+justify-content: center;
+}
+.dddflex{
+display: inline-block;
+justify-content: center;
+}
+.bbflex{
+display: flex;
+justify-content: flex-end;
+}
+.vl{
+border-left: 6px solid white;
+height: 1400px;
+position: absolute;
+left: 50%;
+margin-left: -3px;
+top: 1500px;
+}
+.vl1 {
+border-left: 30px dotted white;
+height: 30px;
+width: 1000px;
+position: absolute;
+left: 49%;
+top: 1600px;
+}
+.vl2 {
+border-left: 30px dotted white;
+height: 30px;
+width: 1000px;
+position: absolute;
+left: 49%;
+top: 2100px;
+}
+.vl3 {
+border-left: 30px dotted white;
+height: 30px;
+width: 1000px;
+position: absolute;
+left: 49%;
+top: 2600px;
+}
+.sflex{
+display: flex;
+justify-content: flex-end;
+}
+@keyframes example{
+0% { 
+box-shadow: 0 0 50px 50px #F2F0EB;        
+transform: rotate(0deg);
+border-radius: 50%;
+} 
+50%  {
+box-shadow: 0 0 50px 50px #548DBF; 
+transform: rotate(360deg);
+border-radius: 50%;
+} 
+100% {
+box-shadow: 0 0 50px 50px #F2F0EB;
+transform: rotate(720deg);
+border-radius: 50%;
+}
